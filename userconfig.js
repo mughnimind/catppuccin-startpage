@@ -10,17 +10,17 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Sidoasri",
     scale: "C",
   },
   clock: {
-    format: "k:i p",
+    format: "k:i",
     icon_color: palette.maroon,
   },
   additionalClocks: [
     {
-      label: "UA",
-      timezone: "Europe/Kyiv",
+      label: "JP",
+      timezone: "Asia/Tokyo",
       format: "h:i",
       icon_color: palette.peach,
     },
@@ -31,7 +31,7 @@ const default_configuration = {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
-    default: "d",
+    default: "g",
   },
   keybindings: {
     "s": "search-bar",
@@ -43,8 +43,8 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
-      background_url: "src/img/banners/banner_09.gif",
+      name: "aziza",
+      background_url: "src/img/banners/banner_03.gif",
       categories: [
         {
           name: "bookmarks",
