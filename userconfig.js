@@ -43,23 +43,29 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "aziza",
+      name: "HOME",
       background_url: "src/img/banners/banner_03.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "frequents",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
+              name: "Google Search",
+              url: "https://www.google.com/",
+              icon: "IconBrandGoogle",
+              icon_color: palette.blue,
+            },
+			{
+              name: "YouTube",
+              url: "https://www.youtube.com/",
+              icon: "IconBrandYoutube",
+              icon_color: palette.red,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
-              icon_color: palette.peach,
+              name: "FMHY",
+              url: "https://fmhy.net/",
+              icon: "IconApiApp",
+              icon_color: palette.mauve,
             },
           ],
         },
