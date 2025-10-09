@@ -49,22 +49,28 @@ const default_configuration = {
         {
           name: "frequents",
           links: [
-            {
-              name: "Google Search",
-              url: "https://www.google.com/",
-              icon: "IconBrandGoogle",
-              icon_color: palette.blue,
-            },
 			{
               name: "YouTube",
               url: "https://www.youtube.com/",
-              icon: "IconBrandYoutube",
+              icon: "brand-youtube",
               icon_color: palette.red,
+            },
+			{
+              name: "SoundColud",
+              url: "https://www.youtube.com/",
+              icon: "brand-soundcloud",
+              icon_color: palette.peach,
+            },
+            {
+              name: "X",
+              url: "https://x.com/home",
+              icon: "brand-x",
+              icon_color: palette.sky,
             },
             {
               name: "FMHY",
               url: "https://fmhy.net/",
-              icon: "IconApiApp",
+              icon: "api-app",
               icon_color: palette.mauve,
             },
           ],
